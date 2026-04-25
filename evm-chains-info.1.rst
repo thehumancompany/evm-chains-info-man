@@ -23,9 +23,9 @@
    If not, see <https://www.gnu.org/licenses/>.
 
 
-================
+=========================
 evm-chains-info
-================
+=========================
 
 ----------------------------------------------------------------
 Ethereum Virtual Machine Blockchains Information Retrieval Tool
