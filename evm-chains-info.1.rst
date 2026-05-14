@@ -52,41 +52,41 @@ JSON format in the format provided by
 Options
 =======
 
--C target-command       Target command. It can be
-                        - 'get' or
-                        - 'set'.
+-C target-command, --command target-command               Target command. It can be
+                                                          'get' or
+                                                          'set'.
 
--i input-type           Input type. It can be 'id' or 'name',
-                        'amount'.
+-i input-type, --input-type input-type                    Input type. It can be 'id' or 'name',
+                                                          'amount'.
 
--o output-type          Output type. It can be 'id', 'name',
-                        'rpc', 'explorers'.
+-o output-type, --output-type output-type                 Output type. It can be 'id', 'name',
+                                                          'rpc', 'explorers'.
 
--m retrieval-mode       It can be 'offline'.
+-m retrieval-mode, --retrieval-mode retrieval-mode        It can be 'offline'.
 
--u <y/n>                Whether to look for the database in
-                        he user level configuration directory.
+-u <y/n>, --user-level <y/n>                              Whether to look for the database in
+                                                          the user level configuration directory.
 
--d db-path              Path of the chains' info json file
-                        to be used for 'offline' retrieval
-                        mode. Can be input more than once.
+-d db-path --db-path db-path                              Path of the chains' info json file
+                                                          to be used for 'offline' retrieval
+                                                          mode. Can be input more than once.
 
--s selection-method     When output type is 'rpc',
-                        selection criterion to use when
-                        more than one is available.
-                        It can be 'kirsh', 'random' or
-                        'all'.
+-s selection-method --selection-method selection-method   When output type is 'rpc',
+                                                          selection criterion to use when
+                                                          more than one is available.
+                                                          It can be 'kirsh', 'random' or
+                                                          'all'.
 
--k                      Whether to include, when output type
-                        is 'rpc', the ones requiring an api key.
+-k                                                        Whether to include, when output type
+                                                          is 'rpc', the ones requiring an api key.
 
--a                      Retrieve results for all networks.
+-a                                                        Retrieve results for all networks.
 
--h                      Displays help message.
+-h                                                        Displays help message.
 
--c                      Enable color output
+-c                                                        Enable color output
 
--v                      Enable verbose output
+-v                                                        Enable verbose output
 
 
 Bugs
